@@ -8,6 +8,11 @@ import org.springframework.data.redis.core.ReactiveValueOperations;
 import org.springframework.stereotype.Repository;
 import reactor.core.publisher.Mono;
 
+/**
+ * Implement custom repository as so far Spring does not support reactive CRUD repository for Redis
+ *
+ * See: https://docs.spring.io/spring-data/data-redis/docs/current/reference/html/#redis:reactive
+ */
 @Repository
 public class ShortUrlRedisRepository implements ShortUrlRepository {
 
