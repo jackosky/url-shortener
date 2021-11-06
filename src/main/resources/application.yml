@@ -1,0 +1,8 @@
+spring:
+  redis:
+    host: localhost
+    port: 6379
+    password: strong_password
+
+# 7 days = 7 * 24 * 60 * 60
+retentionTimeInSeconds: 604800
