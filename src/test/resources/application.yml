@@ -1,0 +1,7 @@
+spring:
+  redis:
+    host: localhost
+    port: 4000
+
+# 5 seconds
+retentionTimeInSeconds: 5

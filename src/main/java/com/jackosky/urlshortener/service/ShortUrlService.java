@@ -16,7 +16,6 @@ public class ShortUrlService {
     this.uuidFactory = uuidFactory;
   }
 
-
   public Mono<ShortUrlDto> createShortUrl(String originUrl) {
     return Mono.just(new ShortUrlDto(uuidFactory.next(), originUrl))
         .flatMap(shortUrlRepository::save);
