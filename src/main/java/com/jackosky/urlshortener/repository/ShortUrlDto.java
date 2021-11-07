@@ -1,4 +1,4 @@
-package com.jackosky.urlshortener.dto;
+package com.jackosky.urlshortener.repository;
 
 import lombok.Data;
 

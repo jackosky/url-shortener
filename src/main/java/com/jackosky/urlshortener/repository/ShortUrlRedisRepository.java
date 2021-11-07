@@ -1,6 +1,5 @@
 package com.jackosky.urlshortener.repository;
 
-import com.jackosky.urlshortener.dto.ShortUrlDto;
 import java.time.Duration;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.redis.core.ReactiveStringRedisTemplate;

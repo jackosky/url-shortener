@@ -1,6 +1,6 @@
 package com.jackosky.urlshortener.service;
 
-import com.jackosky.urlshortener.dto.ShortUrlDto;
+import com.jackosky.urlshortener.repository.ShortUrlDto;
 import com.jackosky.urlshortener.repository.ShortUrlRepository;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Mono;

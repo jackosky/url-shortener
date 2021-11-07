@@ -7,7 +7,7 @@ import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-import com.jackosky.urlshortener.dto.ShortUrlDto;
+import com.jackosky.urlshortener.repository.ShortUrlDto;
 import com.jackosky.urlshortener.repository.ShortUrlRepository;
 import org.junit.jupiter.api.Test;
 import reactor.core.publisher.Mono;
